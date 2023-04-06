@@ -23,5 +23,6 @@
 p "How old are you?"
 
 age_input = gets.chomp.to_i
+year_output = 2023 - age_input
 
-p 2023 - age_input
+p "Nice! You were born in approximately " + year_output.to_s
