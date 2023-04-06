@@ -21,3 +21,7 @@
 # "Nice! You were born in approximately 2013."
 
 p "How old are you?"
+
+age_input = gets.chomp.to_i
+
+p 2023 - age_input
